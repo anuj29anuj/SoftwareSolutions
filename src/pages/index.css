@@ -1,0 +1,62 @@
+.bodyContainer{
+  
+  display: flex;
+  
+ padding: 1rem 2rem;
+
+ 
+}
+.play{  
+  height:10px;
+  
+  margin-right: 0.2rem;
+}
+
+
+.content{
+    
+   
+    width:50%; 
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+ .heading{
+    padding-top: 0;
+     font-size:50px; 
+     font-weight: bold;
+     line-height: 1.1;
+     min-height: 14rem;
+ }
+
+ .description{
+    font-family: sans-serif;
+        font-size:10px;
+        margin-bottom: 6rem;
+        font-weight:500;
+ }
+ .integrations{
+
+   display: flex;
+   flex-direction: row;
+  
+
+ }
+ 
+ .integrations>ul{
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+   }
+   .integrations> ul>:first-child{
+     font-size: 10px;
+     padding-top: 0.3rem;
+     padding-left: 0;
+
+   }
+   .integrations>ul>li>img{
+   height: 1.8rem;
+   width:3.9rem;
+ }
+
+
