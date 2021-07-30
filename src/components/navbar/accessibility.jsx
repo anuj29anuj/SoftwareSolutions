@@ -25,6 +25,9 @@ margin-right:8rem;
     color: #fff;
     background-color: #3356FF;
   }
+  @media (max-width: 700px) {
+    margin-right:1rem;
+  }
 
 
 `;

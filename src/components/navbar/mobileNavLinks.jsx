@@ -55,7 +55,7 @@ export function MobileNavLinks(props) {
 
   return (
     <NavLinksContainer>
-      <MenuToggle isOpen={isOpen} toggle={() => {
+      <MenuToggle isOpen={isOpen}  toggle={() => {
         props.toggleopen(!isOpen)
         setOpen(!isOpen)} }/>
       {isOpen && (
