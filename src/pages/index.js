@@ -22,13 +22,13 @@ const Body=()=>{
     <div className="bodyContainer">
         <div className="content">
             <div className="heading">
-                Don't worry.<br></br>
-                We are here for<br></br> every solution.
+                Don't worry.
+                We are here for every solution.
             </div>
 
             <div className="description">
                 Bushwick meh Blue Bottle pork belly mustache skateboard 3 wolf 
-                moon. <br></br>Actually beard single-origin coffee, twee 90's PBR Echo Park
+                moon. Actually beard single-origin coffee, twee 90's PBR Echo Park
 
             </div>
         <div>

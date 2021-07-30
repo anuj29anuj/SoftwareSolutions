@@ -43,7 +43,7 @@ export function Navbar(props) {
       <MiddleSection>{!isMobile && <NavLinks />}</MiddleSection>
       <RightSection>
         {!isMobile && <Accessibility />}
-        {isMobile && <MobileNavLinks />}
+        {isMobile && <MobileNavLinks toggleopen={props.toggleopen}/>}
       </RightSection>
     </NavbarContainer>
   );

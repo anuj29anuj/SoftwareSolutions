@@ -7,11 +7,11 @@ const NavLinksContainer = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+  
 `;
 
 const LinksWrapper = styled.ul`
-  margin: 0;
-  padding: 0;
+  
   display: flex;
   height: 100%;
   list-style: none;
@@ -31,17 +31,14 @@ const LinkItem = styled.li`
   font-weight: 500;
   font-size: 16px;
   display: flex;
-  justify-content:center;
-  
-
-  
+  justify-content:center;  
 `;
 
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
   font-size: inherit;
-  padding: 0.1rem 0.5rem;
+  padding: 0.1rem 0.2rem;
   &:hover {
     border-radius: 30px;
 border:2px solid #3356ff;
@@ -58,7 +55,9 @@ export function MobileNavLinks(props) {
 
   return (
     <NavLinksContainer>
-      <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
+      <MenuToggle isOpen={isOpen} toggle={() => {
+        props.toggleopen(!isOpen)
+        setOpen(!isOpen)} }/>
       {isOpen && (
         <LinksWrapper>
           <LinkItem>

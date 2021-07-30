@@ -20,7 +20,7 @@ const Access = styled.button`
   border: 2px solid #3356FF;
   transition: all 240ms ease-in-out;
   cursor: pointer;
-
+margin-right:8rem;
   &:hover {
     color: #fff;
     background-color: #3356FF;
